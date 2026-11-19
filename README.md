@@ -21,7 +21,7 @@ Escuela Profesional de Ingeniería Estadística e Informática — Universidad N
 
 Este repositorio contiene los datos, el código en R y la fuente LaTeX del artículo *“Gestión de residuos agrícolas y pecuarios en el Perú: una tipología de productores mediante análisis de conglomerados”* (estructura IEEE).
 
-A partir del Capítulo 600 de la **Encuesta Nacional Agropecuaria (ENA)** del INEI se analizan **244 609 pequeños y medianos productores (2016–2025)** caracterizados por **9 prácticas de manejo de rastrojos y estiércol**; otras 6 variables (almacenamiento de alimentos, minería cercana, información estatal, trazabilidad y certificación) se usan para describir los grupos. Con k-means, contrastado con Ward y CLARA, se identifican **3 perfiles estables** (ARI bootstrap = 0.846):
+A partir del Capítulo 600 de la **Encuesta Nacional Agropecuaria (ENA)** se analizan **244 609 pequeños y medianos productores (2016–2025)** caracterizados por **9 prácticas de manejo de rastrojos y estiércol**; otras 6 variables (almacenamiento de alimentos, minería cercana, información estatal, trazabilidad y certificación) se usan para describir los grupos. Con k-means, contrastado con Ward y CLARA, se identifican **3 perfiles estables** (ARI bootstrap = 0.846):
 
 | Perfil | % | Rasgo distintivo | Región donde predomina |
 |---|---:|---|---|
@@ -114,7 +114,7 @@ gestion_residuos_agricolas_ena/
 
 ## Datos
 
-* **Fuente:** INEI, Encuesta Nacional Agropecuaria, Capítulo 600 (microdatos públicos: <https://proyectos.inei.gob.pe/microdatos/>).
+* **Fuente:** Encuesta Nacional Agropecuaria.
 * **Periodo analizado:** 2016–2025. Las ediciones 2014–2015 se excluyen porque sus opciones de respuesta sobre residuos no son comparables; no hubo encuesta en 2020–2021.
 * **Alcance:** pequeños y medianos productores. El extracto **no incluye factores de expansión**, por lo que los resultados describen la muestra.
 * **Diccionario:** [`docs/diccionario_variables.md`](docs/diccionario_variables.md).
@@ -154,4 +154,4 @@ También puede usar el botón **“Cite this repository”** de GitHub, que lee 
 
 ## Licencia
 
-Código: [MIT](LICENSE). Datos derivados y figuras: [CC BY 4.0](LICENSE-DATA). Los microdatos originales pertenecen al INEI; cite la fuente al reutilizarlos.
+Código: [MIT](LICENSE). Datos derivados y figuras: [CC BY 4.0](LICENSE-DATA). 
