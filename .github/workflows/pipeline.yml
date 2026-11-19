@@ -1,0 +1,47 @@
+name: pipeline
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      LANG: C.UTF-8
+      LC_ALL: C.UTF-8
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: "4.3.3"
+          use-public-rspm: true
+
+      - name: Dependencias del sistema
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcairo2-dev texlive-latex-base texlive-latex-recommended \
+            texlive-latex-extra texlive-publishers texlive-lang-spanish \
+            texlive-fonts-recommended texlive-pictures
+
+      - name: Paquetes de R
+        run: Rscript install_packages.R
+
+      - name: Ejecutar pipeline (10 etapas)
+        run: make pipeline
+
+      - name: Compilar artículo
+        run: make paper
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: resultados
+          path: |
+            paper/main.pdf
+            outputs/figures/
+            outputs/tables/
+            logs/

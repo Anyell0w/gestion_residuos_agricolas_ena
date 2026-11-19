@@ -1,0 +1,46 @@
+var,CLUSTER,prev,etiqueta,bloque,rol,prev_global,dif_pp
+ALM_ADEC,C1 Aprovechamiento,0.484622998941871,Almacén adecuado,Almacenamiento,Perfil,0.435916094665364,4.87069042765073
+ALM_ADEC,C2 Baja valorización,0.398068985849057,Almacén adecuado,Almacenamiento,Perfil,0.435916094665364,-3.78471088163073
+ALM_ADEC,C3 Abandono en campo,0.419984065861107,Almacén adecuado,Almacenamiento,Perfil,0.435916094665364,-1.59320288042565
+ALM_INADEC,C1 Aprovechamiento,0.548201749894756,Almacén inadecuado,Almacenamiento,Perfil,0.5394118777314,0.878987216335614
+ALM_INADEC,C2 Baja valorización,0.478724449685535,Almacén inadecuado,Almacenamiento,Perfil,0.5394118777314,-6.06874280458653
+ALM_INADEC,C3 Abandono en campo,0.594755012614527,Almacén inadecuado,Almacenamiento,Perfil,0.5394118777314,5.53431348831267
+CERTIF,C1 Aprovechamiento,0.0041983820869031,Certificación de calidad,Trazabilidad y calidad,Perfil,0.00580518296546734,-0.160680087856424
+CERTIF,C2 Baja valorización,0.00706318789308176,Certificación de calidad,Trazabilidad y calidad,Perfil,0.00580518296546734,0.125800492761442
+CERTIF,C3 Abandono en campo,0.00632054176072235,Certificación de calidad,Trazabilidad y calidad,Perfil,0.00580518296546734,0.051535879525501
+CONOCE_ID,C1 Aprovechamiento,0.169528165568716,Conoce identificación de alimentos,Trazabilidad y calidad,Perfil,0.186481282373093,-1.69531168043776
+CONOCE_ID,C2 Baja valorización,0.218995676100629,Conoce identificación de alimentos,Trazabilidad y calidad,Perfil,0.186481282373093,3.25143937275355
+CONOCE_ID,C3 Abandono en campo,0.171119373257204,Conoce identificación de alimentos,Trazabilidad y calidad,Perfil,0.186481282373093,-1.53619091158898
+INFO_EST,C1 Aprovechamiento,0.073852840450103,Informado por el Estado,Entorno e información,Perfil,0.0677039683740173,0.614887207608567
+INFO_EST,C2 Baja valorización,0.066983588836478,Informado por el Estado,Entorno e información,Perfil,0.0677039683740173,-0.0720379537539326
+INFO_EST,C3 Abandono en campo,0.0613065993891913,Informado por el Estado,Entorno e información,Perfil,0.0677039683740173,-0.639736898482596
+MINA,C1 Aprovechamiento,0.0814531635776132,Minería cerca del predio,Entorno e información,Perfil,0.0674505026389054,1.40026609387078
+MINA,C2 Baja valorización,0.0645759630503145,Minería cerca del predio,Entorno e información,Perfil,0.0674505026389054,-0.287453958859089
+MINA,C3 Abandono en campo,0.0542159075819944,Minería cerca del predio,Entorno e información,Perfil,0.0674505026389054,-1.32345950569109
+RA_ABONO,C1 Aprovechamiento,0.996222593894711,Residuos pecuarios: abono,Residuos pecuarios,Agrupamiento,0.427138821547858,56.9083772346853
+RA_ABONO,C2 Baja valorización,0.000307095125786164,Residuos pecuarios: abono,Residuos pecuarios,Agrupamiento,0.427138821547858,-42.6831726422072
+RA_ABONO,C3 Abandono en campo,0.224379232505643,Residuos pecuarios: abono,Residuos pecuarios,Agrupamiento,0.427138821547858,-20.2759589042215
+RA_CAMPO,C1 Aprovechamiento,0.192249490846617,Residuos pecuarios: deja en campo,Residuos pecuarios,Agrupamiento,0.376956694152709,-18.4707203306092
+RA_CAMPO,C2 Baja valorización,0,Residuos pecuarios: deja en campo,Residuos pecuarios,Agrupamiento,0.376956694152709,-37.6956694152709
+RA_CAMPO,C3 Abandono en campo,1,Residuos pecuarios: deja en campo,Residuos pecuarios,Agrupamiento,0.376956694152709,62.3043305847291
+RA_COMBUST,C1 Aprovechamiento,0.122924986631168,Residuos pecuarios: combustible,Residuos pecuarios,Agrupamiento,0.0631211443569125,5.98038422742557
+RA_COMBUST,C2 Baja valorización,0.0128242924528302,Residuos pecuarios: combustible,Residuos pecuarios,Agrupamiento,0.0631211443569125,-5.02968519040823
+RA_COMBUST,C3 Abandono en campo,0.0476961890851149,Residuos pecuarios: combustible,Residuos pecuarios,Agrupamiento,0.0631211443569125,-1.54249552717976
+RA_INADEC,C1 Aprovechamiento,0.0673902902458727,Residuos pecuarios: quema/entierra/bota,Residuos pecuarios,Agrupamiento,0.129304318320258,-6.19140280743853
+RA_INADEC,C2 Baja valorización,0.224584807389937,Residuos pecuarios: quema/entierra/bota,Residuos pecuarios,Agrupamiento,0.129304318320258,9.52804890696791
+RA_INADEC,C3 Abandono en campo,0.098565927499668,Residuos pecuarios: quema/entierra/bota,Residuos pecuarios,Agrupamiento,0.129304318320258,-3.073839082059
+RC_ABONO,C1 Aprovechamiento,0.367898874742579,Residuos de cultivo: abono,Residuos de cultivo,Agrupamiento,0.259642940366054,10.8255934376525
+RC_ABONO,C2 Baja valorización,0.212522110849057,Residuos de cultivo: abono,Residuos de cultivo,Agrupamiento,0.259642940366054,-4.7120829516997
+RC_ABONO,C3 Abandono en campo,0.184238480945426,Residuos de cultivo: abono,Residuos de cultivo,Agrupamiento,0.259642940366054,-7.5404459420628
+RC_ALIMENTO,C1 Aprovechamiento,0.53496945079701,Residuos de cultivo: alimento animal,Residuos de cultivo,Agrupamiento,0.243134962327633,29.1834488469377
+RC_ALIMENTO,C2 Baja valorización,0.0485701650943396,Residuos de cultivo: alimento animal,Residuos de cultivo,Agrupamiento,0.243134962327633,-19.4564797233293
+RC_ALIMENTO,C3 Abandono en campo,0.112866817155756,Residuos de cultivo: alimento animal,Residuos de cultivo,Agrupamiento,0.243134962327633,-13.0268145171877
+RC_BOTA,C1 Aprovechamiento,0.0262711767985345,Residuos de cultivo: bota,Residuos de cultivo,Agrupamiento,0.0407425728407377,-1.44713960422031
+RC_BOTA,C2 Baja valorización,0.0634335691823899,Residuos de cultivo: bota,Residuos de cultivo,Agrupamiento,0.0407425728407377,2.26909963416523
+RC_BOTA,C3 Abandono en campo,0.0331031735493294,Residuos de cultivo: bota,Residuos de cultivo,Agrupamiento,0.0407425728407377,-0.763939929140823
+RC_CAMPO,C1 Aprovechamiento,0.592370094776485,Residuos de cultivo: deja en campo,Residuos de cultivo,Agrupamiento,0.717385705350171,-12.5015610573687
+RC_CAMPO,C2 Baja valorización,0.703186419025157,Residuos de cultivo: deja en campo,Residuos de cultivo,Agrupamiento,0.717385705350171,-1.41992863250139
+RC_CAMPO,C3 Abandono en campo,0.878634975434869,Residuos de cultivo: deja en campo,Residuos de cultivo,Agrupamiento,0.717385705350171,16.1249270084698
+RC_QUEMA,C1 Aprovechamiento,0.162417084798216,Residuos de cultivo: quema,Residuos de cultivo,Agrupamiento,0.183893478980741,-2.14763941825247
+RC_QUEMA,C2 Baja valorización,0.278252751572327,Residuos de cultivo: quema,Residuos de cultivo,Agrupamiento,0.183893478980741,9.43592725915864
+RC_QUEMA,C3 Abandono en campo,0.106957907316425,Residuos de cultivo: quema,Residuos de cultivo,Agrupamiento,0.183893478980741,-7.69355716643152

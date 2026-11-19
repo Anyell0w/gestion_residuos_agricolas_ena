@@ -1,0 +1,22 @@
+# Artefactos intermedios reproducibles (se regeneran con `make pipeline`)
+data/processed/*
+!data/processed/.gitkeep
+outputs/models/*
+!outputs/models/.gitkeep
+logs/*
+!logs/.gitkeep
+!logs/sessionInfo.txt
+
+# LaTeX
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+
+# R / sistema
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
+zenodo/upload/

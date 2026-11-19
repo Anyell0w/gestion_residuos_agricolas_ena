@@ -1,0 +1,76 @@
+DEPARTAMENTO,CLUSTER,N,pct
+Amazonas,C1 Aprovechamiento,813,7.63022055373064
+Amazonas,C3 Abandono en campo,7065,66.3068981698733
+Amazonas,C2 Baja valorización,2777,26.0628812763961
+Áncash,C1 Aprovechamiento,8787,55.6491450284991
+Áncash,C2 Baja valorización,3908,24.7498416719443
+Áncash,C3 Abandono en campo,3095,19.6010132995567
+Apurímac,C1 Aprovechamiento,7451,70.0150347679008
+Apurímac,C2 Baja valorización,1682,15.805299755685
+Apurímac,C3 Abandono en campo,1509,14.1796654764142
+Arequipa,C2 Baja valorización,4888,41.7456657272184
+Arequipa,C1 Aprovechamiento,4826,41.2161585105474
+Arequipa,C3 Abandono en campo,1995,17.0381757622342
+Ayacucho,C3 Abandono en campo,3898,27.4391102351119
+Ayacucho,C1 Aprovechamiento,6199,43.6364916232578
+Ayacucho,C2 Baja valorización,4109,28.9243981416303
+Cajamarca,C1 Aprovechamiento,3961,28.1400966183575
+Cajamarca,C2 Baja valorización,3138,22.2932651321398
+Cajamarca,C3 Abandono en campo,6977,49.5666382495027
+Cusco,C2 Baja valorización,1980,15.884476534296
+Cusco,C1 Aprovechamiento,8390,67.3084636983554
+Cusco,C3 Abandono en campo,2095,16.8070597673486
+Huancavelica,C1 Aprovechamiento,5597,60.41014570966
+Huancavelica,C2 Baja valorización,1760,18.9962223421479
+Huancavelica,C3 Abandono en campo,1908,20.5936319481921
+Huánuco,C2 Baja valorización,2484,19.7205462051445
+Huánuco,C1 Aprovechamiento,5209,41.3543982216577
+Huánuco,C3 Abandono en campo,4903,38.9250555731978
+Ica,C2 Baja valorización,5946,76.7820247933884
+Ica,C1 Aprovechamiento,912,11.7768595041322
+Ica,C3 Abandono en campo,886,11.4411157024793
+Junín,C1 Aprovechamiento,5135,48.6361053229778
+Junín,C2 Baja valorización,2582,24.4553892782724
+Junín,C3 Abandono en campo,2841,26.9085053987498
+La Libertad,C2 Baja valorización,3097,28.7664870889838
+La Libertad,C1 Aprovechamiento,4647,43.1636633847297
+La Libertad,C3 Abandono en campo,3022,28.0698495262865
+Lambayeque,C2 Baja valorización,3904,50.8730779254626
+Lambayeque,C1 Aprovechamiento,1434,18.6864738076622
+Lambayeque,C3 Abandono en campo,2336,30.4404482668752
+Lima,C2 Baja valorización,5941,52.9359351332086
+Lima,C1 Aprovechamiento,3361,29.9474293860822
+Lima,C3 Abandono en campo,1921,17.1166354807093
+Loreto,C2 Baja valorización,2143,32.0233114166169
+Loreto,C3 Abandono en campo,4311,64.4202032277346
+Loreto,C1 Aprovechamiento,238,3.55648535564854
+Madre de Dios,C2 Baja valorización,2112,47.1113093910328
+Madre de Dios,C3 Abandono en campo,1931,43.0738344858354
+Madre de Dios,C1 Aprovechamiento,440,9.81485612313183
+Moquegua,C2 Baja valorización,3240,37.5347544022243
+Moquegua,C1 Aprovechamiento,4190,48.5403151065802
+Moquegua,C3 Abandono en campo,1202,13.9249304911956
+Pasco,C3 Abandono en campo,4157,50.3146937787461
+Pasco,C1 Aprovechamiento,2077,25.1391914790608
+Pasco,C2 Baja valorización,2028,24.5461147421932
+Piura,C2 Baja valorización,4376,38.0654140570633
+Piura,C1 Aprovechamiento,1397,12.152052887961
+Piura,C3 Abandono en campo,5723,49.7825330549757
+Puno,C2 Baja valorización,2405,17.459165154265
+Puno,C3 Abandono en campo,2211,16.0508166969147
+Puno,C1 Aprovechamiento,9159,66.4900181488203
+San Martín,C3 Abandono en campo,5979,62.0550077841204
+San Martín,C2 Baja valorización,3169,32.8905033731188
+San Martín,C1 Aprovechamiento,487,5.05448884276077
+Tacna,C1 Aprovechamiento,2741,31.9017690875233
+Tacna,C2 Baja valorización,4807,55.9473929236499
+Tacna,C3 Abandono en campo,1044,12.1508379888268
+Tumbes,C2 Baja valorización,5222,88.1052809178337
+Tumbes,C1 Aprovechamiento,184,3.10443732073562
+Tumbes,C3 Abandono en campo,521,8.79028176143074
+Ucayali,C3 Abandono en campo,3771,48.9994802494803
+Ucayali,C2 Baja valorización,3671,47.700103950104
+Ucayali,C1 Aprovechamiento,254,3.3004158004158
+Callao,C2 Baja valorización,39,78
+Callao,C1 Aprovechamiento,2,4
+Callao,C3 Abandono en campo,9,18

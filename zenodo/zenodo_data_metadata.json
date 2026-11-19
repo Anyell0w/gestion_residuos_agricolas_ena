@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "title": "Gestión de residuos agrícolas y pecuarios en productores agropecuarios del Perú: datos depurados de la ENA (Cap. 600) y asignaciones de grupo",
+    "upload_type": "dataset",
+    "description": "<p>Datos del Capítulo 600 de la Encuesta Nacional Agropecuaria (ENA) del INEI, Perú. Contiene: (1) el extracto unificado original 2014–2025 (306 966 registros, 47 variables); (2) el extracto depurado 2016–2025 con 15 variables binarias (9 de gestión de residuos y 6 ilustrativas) para 244 609 pequeños y medianos productores; (3) la asignación de cada registro a uno de tres perfiles de gestión de residuos (k-means, k = 3); (4) el diccionario de variables y (5) las tablas de resultados. Las ediciones 2014–2015 se excluyeron del análisis porque sus opciones de respuesta sobre residuos no son comparables. Fuente original: INEI (https://proyectos.inei.gob.pe/microdatos/). El extracto no contiene factores de expansión.</p>",
+    "creators": [
+      {
+        "name": "Zamora Valencia, Angello Marcelo",
+        "affiliation": "Universidad Nacional del Altiplano, Puno, Perú"
+      },
+      {
+        "name": "Mamani Mena, Ronaldo Carlos",
+        "affiliation": "Universidad Nacional del Altiplano, Puno, Perú"
+      },
+      {
+        "name": "Cáceres Tacora, Lizbeth Estefany",
+        "affiliation": "Universidad Nacional del Altiplano, Puno, Perú"
+      },
+      {
+        "name": "Butrón Maquera, Tania Karin",
+        "affiliation": "Universidad Nacional del Altiplano, Puno, Perú"
+      }
+    ],
+    "license": "cc-by-4.0",
+    "language": "spa",
+    "access_right": "open",
+    "keywords": [
+      "Encuesta Nacional Agropecuaria",
+      "ENA",
+      "INEI",
+      "Perú",
+      "residuos agrícolas",
+      "estiércol",
+      "quema de rastrojos",
+      "análisis de conglomerados"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "10.5281/zenodo.YYYYYYY",
+        "relation": "isSupplementTo",
+        "scheme": "doi",
+        "resource_type": "software"
+      }
+    ],
+    "version": "1.0.0"
+  }
+}

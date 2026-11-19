@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "Si utiliza este software o sus datos, cítelo como se indica."
+type: software
+title: "ena-cap600-clustering: código en R para la tipología de gestión de residuos agropecuarios (ENA, Perú)"
+version: "1.0.0"
+date-released: "2026-11-19"
+license: MIT
+repository-code: "https://github.com/USUARIO/ena-cap600-clustering"
+doi: "10.5281/zenodo.YYYYYYY"
+authors:
+  - family-names: "Zamora Valencia"
+    given-names: "Angello Marcelo"
+    affiliation: "Escuela Profesional de Ingeniería Estadística e Informática, Universidad Nacional del Altiplano, Puno, Perú"
+  - family-names: "Mamani Mena"
+    given-names: "Ronaldo Carlos"
+    affiliation: "Escuela Profesional de Ingeniería Estadística e Informática, Universidad Nacional del Altiplano, Puno, Perú"
+  - family-names: "Cáceres Tacora"
+    given-names: "Lizbeth Estefany"
+    affiliation: "Escuela Profesional de Ingeniería Estadística e Informática, Universidad Nacional del Altiplano, Puno, Perú"
+  - family-names: "Butrón Maquera"
+    given-names: "Tania Karin"
+    affiliation: "Escuela Profesional de Ingeniería Estadística e Informática, Universidad Nacional del Altiplano, Puno, Perú"
+keywords:
+  - clustering
+  - k-means
+  - Ward
+  - agricultural waste
+  - manure management
+  - crop residue burning
+  - ENA
+  - Peru
+  - reproducible research
+  - R
+references:
+  - type: dataset
+    title: "Gestión de residuos agrícolas y pecuarios en productores agropecuarios del Perú: datos depurados de la ENA (Cap. 600) y asignaciones de grupo"
+    doi: "10.5281/zenodo.XXXXXXX"
+    authors:
+      - family-names: "Zamora Valencia"
+        given-names: "Angello Marcelo"

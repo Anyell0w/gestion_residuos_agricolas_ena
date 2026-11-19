@@ -1,0 +1,23 @@
+\begin{table}[!htb]
+\centering
+\caption{Criterios para elegir el número de grupos}
+\label{tab:seleccionk}
+\footnotesize
+\setlength{\tabcolsep}{3.2pt}
+\begin{tabular}{@{}rrrrrrr@{}}
+\toprule
+$k$ & WSS & CH & DB & Silueta & ARI & Mín. (\%) \\
+\midrule
+2 & 274\,318 & 64\,992 & 1.865 & 0.244 & 1.000 & 42.8 \\
+\rowcolor{SelRow}3 & 237\,219 & 56\,705 & 1.642 & 0.249 & 0.881 & 30.8 \\
+4 & 209\,492 & 53\,598 & 1.688 & 0.275 & 0.658 & 21.3 \\
+5 & 188\,154 & 51\,692 & 1.501 & 0.296 & 0.743 & 14.6 \\
+6 & 171\,564 & 50\,083 & 1.399 & 0.326 & 0.665 & 10.0 \\
+7 & 159\,720 & 47\,854 & 1.382 & 0.337 & 0.621 & 6.8 \\
+8 & 147\,389 & 47\,372 & 1.335 & 0.366 & 0.621 & 7.3 \\
+9 & 140\,023 & 45\,240 & 1.259 & 0.376 & 0.693 & 4.8 \\
+10 & 135\,225 & 42\,604 & 1.275 & 0.386 & 0.592 & 4.1 \\
+\bottomrule
+\end{tabular}
+\par\smallskip\parbox{\columnwidth}{\scriptsize WSS: suma de cuadrados intra-grupo; CH: Calinski--Harabasz ($\uparrow$); DB: Davies--Bouldin ($\downarrow$); silueta media en 10 submuestras de 8\,000 registros ($\uparrow$); ARI: estabilidad media en 20 réplicas \textit{bootstrap} ($\uparrow$); Mín.: tamaño del grupo más pequeño. Fila sombreada: $k$ elegido (ARI $\geq$ 0.80, Mín. $\geq$ 5\,\% y menor DB).}
+\end{table}

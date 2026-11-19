@@ -1,0 +1,57 @@
+# ------------------------------------------------------------------
+# Configuración central del pipeline (todos los scripts la leen)
+# ------------------------------------------------------------------
+project:
+  name: "ena-cap600-clustering"
+  seed: 2026
+
+paths:
+  raw_csv: "data/raw/FINAL_UNIFICADO.csv"
+  dictionary: "data/dictionary/Diccionario_CAP600_variables_seleccionadas.xlsx"
+  interim: "data/processed"
+  figures: "outputs/figures"
+  tables: "outputs/tables"
+  models: "outputs/models"
+  logs: "logs"
+  paper_figures: "paper/figures"
+  paper_tables: "paper/tables"
+
+ingest:
+  # Lectura por bloques (en filas) para simular/soportar archivos que no caben en RAM.
+  chunk_size: 100000
+  # Columnas a cargar (descarta nombres de provincia/distrito para ahorrar memoria)
+  keep_cols: ["ANIO","CCDD","CCPP","CCDI","UA","RESFIN","REGION","CODIGO",
+              "P601_1","P601_2","P601_3","P601_4","P601_5","P601_6",
+              "P602_1","P602_2","P602_3","P602_4","P602_5","P602_6","P602_7",
+              "P603","P604",
+              "P606_1","P606_2","P606_3","P606_4","P606_5",
+              "P607","P608","OMICAP600"]
+
+clean:
+  keep_resfin: [1]          # solo encuestas completas
+  region_recode: {"4": 1}   # código 4 (Lima Metropolitana, 2017) no documentado -> Costa
+  # 2014–2015: las opciones de respuesta de P601/P602 no son comparables con
+  # 2016–2025 (p. ej., P602_6 "deja en el campo" ~0 % y P602_7 "otro" 24 % en 2014).
+  years_exclude: [2014, 2015]
+
+clustering:
+  k_grid: [2, 3, 4, 5, 6, 7, 8, 9, 10]
+  kmeans_nstart: 200            # inicios k-means++ (sobre patrones únicos)
+  kmeans_iter_max: 100
+  silhouette_subsample: 8000     # tamaño de cada submuestra para silueta
+  silhouette_reps: 10            # repeticiones de submuestreo
+  bootstrap_reps: 50             # réplicas para estabilidad (ARI)
+  bootstrap_size: 30000          # tamaño de cada réplica bootstrap
+  clara_samples: 50
+  clara_sampsize: 2000
+  stability_reps_k: 20           # réplicas de estabilidad por cada k
+  k_rule:                        # regla de decisión preespecificada
+    min_ari: 0.80                # estabilidad mínima (ARI bootstrap)
+    min_pct: 5.0                 # tamaño mínimo del clúster más pequeño (%)
+
+# Nombres interpretativos asignados tras inspeccionar los centroides
+# (clústeres reetiquetados por tamaño: 1 = el más grande).
+cluster_names:
+  "1": "C1 Aprovechamiento"
+  "2": "C2 Baja valorización"
+  "3": "C3 Abandono en campo"
