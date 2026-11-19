@@ -2,9 +2,11 @@
 
 **Autores:** Angello Marcelo Zamora Valencia, Ronaldo Carlos Mamani Mena, Lizbeth Estefany Cáceres Tacora, Tania Karin Butrón Maquera (Universidad Nacional del Altiplano, Puno, Perú)
 **Licencia:** CC BY 4.0 (datos derivados). Microdatos originales: © INEI, uso con citación de la fuente.
-**Código asociado:** https://doi.org/10.5281/zenodo.YYYYYYY · https://github.com/USUARIO/ena-cap600-clustering
+**Código asociado:** https://github.com/Anyell0w/gestion_residuos_agricolas_ena
 
 ## Archivos
+
+> **Registro publicado (v1):** https://doi.org/10.5281/zenodo.24371365 — contiene `FINAL_UNIFICADO.csv` y `diccionario_variables.md`. Los demás archivos de la tabla se generan localmente con `make zenodo` y pueden añadirse en una versión posterior del registro.
 
 | Archivo | Descripción | Filas |
 |---|---|---:|

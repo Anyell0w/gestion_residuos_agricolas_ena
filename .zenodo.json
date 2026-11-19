@@ -1,5 +1,5 @@
 {
-  "title": "ena-cap600-clustering: código en R para la tipología de gestión de residuos agropecuarios (ENA, Perú)",
+  "title": "gestion_residuos_agricolas_ena: código en R para la tipología de gestión de residuos agropecuarios (ENA, Perú)",
   "upload_type": "software",
   "description": "<p>Código en R para identificar perfiles de gestión de residuos agrícolas y pecuarios entre 244 609 pequeños y medianos productores del Perú (Encuesta Nacional Agropecuaria, Capítulo 600, 2016–2025) mediante k-means, contrastado con Ward y CLARA, con validación por estabilidad bootstrap. Incluye la fuente LaTeX del artículo asociado.</p>",
   "creators": [
@@ -34,7 +34,7 @@
   ],
   "related_identifiers": [
     {
-      "identifier": "10.5281/zenodo.XXXXXXX",
+      "identifier": "10.5281/zenodo.24371365",
       "relation": "isSupplementedBy",
       "scheme": "doi",
       "resource_type": "dataset"

@@ -74,9 +74,8 @@
 \raggedbottom
 \graphicspath{{figures/}}
 \input{tables/numeros.tex}
-\newcommand{\DOIdata}{10.5281/zenodo.XXXXXXX}
-\newcommand{\DOIcode}{10.5281/zenodo.YYYYYYY}
-\newcommand{\GITHUB}{https://github.com/USUARIO/ena-cap600-clustering}
+\newcommand{\DOIdata}{10.5281/zenodo.24371365}
+\newcommand{\GITHUB}{https://github.com/Anyell0w/gestion_residuos_agricolas_ena}
 \hyphenation{agro-pe-cua-rio agro-pe-cua-rios va-lo-ri-za-ción con-glo-me-ra-dos}
 
 \begin{document}
@@ -288,9 +287,9 @@ El estudio tiene limitaciones. Sin factores de expansión, los resultados no son
 \FloatBarrier
 %% ==================================================================
 \section{Disponibilidad de datos y código}
-\noindent\textbf{Datos.} El extracto de la ENA utilizado, los datos depurados, la asignación de grupo de cada registro, el diccionario de variables y las tablas de resultados están disponibles en Zenodo bajo licencia CC~BY~4.0: \href{https://doi.org/\DOIdata}{https://doi.org/\DOIdata}~\cite{zenodo_data}. Los microdatos originales son públicos en el portal del INEI~\cite{inei_ena}.
+\noindent\textbf{Datos.} El extracto unificado del Capítulo~600 de la ENA (2014--2025; 306\,966 registros y 47 variables) y su diccionario de variables están disponibles en Zenodo bajo licencia CC~BY~4.0: \href{https://doi.org/\DOIdata}{https://doi.org/\DOIdata}~\cite{zenodo_data}. Los datos depurados, la asignación de grupo de cada registro y las tablas de resultados se regeneran a partir de ese archivo con el código descrito a continuación. Los microdatos originales son públicos en el portal del INEI~\cite{inei_ena}.
 
-\noindent\textbf{Código.} Los scripts de R y la fuente de este artículo están en \url{\GITHUB} y archivados en Zenodo: \href{https://doi.org/\DOIcode}{https://doi.org/\DOIcode}~\cite{zenodo_code}, bajo licencia MIT. Siguiendo los principios FAIR~\cite{wilkinson2016,peng2011}, el análisis puede replicarse íntegramente con la semilla aleatoria indicada en el repositorio.
+\noindent\textbf{Código.} Los scripts de R, la configuración y la fuente de este artículo están disponibles en GitHub bajo licencia MIT: \url{\GITHUB}~\cite{zenodo_code}. Siguiendo los principios FAIR~\cite{wilkinson2016,peng2011}, el análisis puede replicarse íntegramente con la semilla aleatoria indicada en el repositorio.
 
 %% ==================================================================
 \section{Conclusiones}

@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "title": "Gestión de residuos agrícolas y pecuarios en productores agropecuarios del Perú: datos depurados de la ENA (Cap. 600) y asignaciones de grupo",
+    "title": "Peruvian National Agricultural Survey (ENA), Chapter 600: Unified Dataset on Agricultural and Livestock Waste Management Practices, 2014–2025",
     "upload_type": "dataset",
-    "description": "<p>Datos del Capítulo 600 de la Encuesta Nacional Agropecuaria (ENA) del INEI, Perú. Contiene: (1) el extracto unificado original 2014–2025 (306 966 registros, 47 variables); (2) el extracto depurado 2016–2025 con 15 variables binarias (9 de gestión de residuos y 6 ilustrativas) para 244 609 pequeños y medianos productores; (3) la asignación de cada registro a uno de tres perfiles de gestión de residuos (k-means, k = 3); (4) el diccionario de variables y (5) las tablas de resultados. Las ediciones 2014–2015 se excluyeron del análisis porque sus opciones de respuesta sobre residuos no son comparables. Fuente original: INEI (https://proyectos.inei.gob.pe/microdatos/). El extracto no contiene factores de expansión.</p>",
+    "description": "<p>This dataset compiles the Chapter 600 records of the Peruvian National Agricultural Survey (Encuesta Nacional Agropecuaria, ENA), conducted by the Instituto Nacional de Estadística e Informática (INEI), unified across survey editions into a single table of 306,966 records and 47 variables. It documents how agricultural producers manage crop residues and livestock manure (for example, use as organic fertilizer or fodder, leaving in the field, burning, or improper disposal), together with contextual variables on region, department, survey year, and access to information and certification. The 2014–2015 waste-management responses are not comparable with those from 2016 onward because the questionnaire changed. Original data are public INEI microdata; this deposit adds harmonization and documentation only. Code: https://github.com/Anyell0w/gestion_residuos_agricolas_ena</p>",
     "creators": [
       {
         "name": "Zamora Valencia, Angello Marcelo",
         "affiliation": "Universidad Nacional del Altiplano, Puno, Perú"
       },
       {
-        "name": "Mamani Mena, Ronaldo Carlos",
+        "name": "Butrón Maquera, Tania Karin",
         "affiliation": "Universidad Nacional del Altiplano, Puno, Perú"
       },
       {
@@ -17,12 +17,12 @@
         "affiliation": "Universidad Nacional del Altiplano, Puno, Perú"
       },
       {
-        "name": "Butrón Maquera, Tania Karin",
+        "name": "Mamani Mena, Ronaldo Carlos",
         "affiliation": "Universidad Nacional del Altiplano, Puno, Perú"
       }
     ],
     "license": "cc-by-4.0",
-    "language": "spa",
+    "language": "eng",
     "access_right": "open",
     "keywords": [
       "Encuesta Nacional Agropecuaria",
@@ -36,12 +36,13 @@
     ],
     "related_identifiers": [
       {
-        "identifier": "10.5281/zenodo.YYYYYYY",
-        "relation": "isSupplementTo",
-        "scheme": "doi",
+        "identifier": "https://github.com/Anyell0w/gestion_residuos_agricolas_ena",
+        "relation": "isSupplementedBy",
+        "scheme": "url",
         "resource_type": "software"
       }
     ],
-    "version": "1.0.0"
+    "version": "v1",
+    "doi": "10.5281/zenodo.24371365"
   }
 }

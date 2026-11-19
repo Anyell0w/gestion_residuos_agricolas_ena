@@ -5,9 +5,8 @@
 ### Una tipología de productores mediante análisis de conglomerados (ENA 2016–2025)
 
 [![R ≥ 4.3](https://img.shields.io/badge/R-%E2%89%A5%204.3-1F4E79?logo=r)](https://www.r-project.org/)
-[![Pipeline](https://github.com/USUARIO/ena-cap600-clustering/actions/workflows/pipeline.yml/badge.svg)](https://github.com/USUARIO/ena-cap600-clustering/actions/workflows/pipeline.yml)
-[![Datos DOI](https://img.shields.io/badge/Datos-10.5281%2Fzenodo.XXXXXXX-2A9D8F)](https://doi.org/10.5281/zenodo.XXXXXXX)
-[![Código DOI](https://img.shields.io/badge/C%C3%B3digo-10.5281%2Fzenodo.YYYYYYY-2A9D8F)](https://doi.org/10.5281/zenodo.YYYYYYY)
+[![Pipeline](https://github.com/Anyell0w/gestion_residuos_agricolas_ena/actions/workflows/pipeline.yml/badge.svg)](https://github.com/Anyell0w/gestion_residuos_agricolas_ena/actions/workflows/pipeline.yml)
+[![Datos DOI](https://img.shields.io/badge/Datos-10.5281%2Fzenodo.24371365-2A9D8F)](https://doi.org/10.5281/zenodo.24371365)
 [![Licencia código: MIT](https://img.shields.io/badge/c%C3%B3digo-MIT-D9822B)](LICENSE)
 [![Licencia datos: CC BY 4.0](https://img.shields.io/badge/datos-CC%20BY%204.0-D9822B)](LICENSE-DATA)
 
@@ -73,8 +72,8 @@ Todos los parámetros (rutas, semilla `2026`, rejilla de *k*, réplicas bootstra
 **Local (R ≥ 4.3):**
 
 ```bash
-git clone https://github.com/USUARIO/ena-cap600-clustering.git
-cd ena-cap600-clustering
+git clone https://github.com/Anyell0w/gestion_residuos_agricolas_ena.git
+cd gestion_residuos_agricolas_ena
 Rscript install_packages.R      # instala las dependencias
 make all                        # análisis completo + PDF del artículo (~5 min)
 ```
@@ -94,7 +93,7 @@ make all                        # análisis completo + PDF del artículo (~5 min
 ## Estructura
 
 ```
-ena-cap600-clustering/
+gestion_residuos_agricolas_ena/
 ├── R/                     # 10 etapas + utils.R (funciones, paleta, índices)
 ├── config/config.yml      # parámetros centralizados
 ├── data/
@@ -119,20 +118,35 @@ ena-cap600-clustering/
 * **Periodo analizado:** 2016–2025. Las ediciones 2014–2015 se excluyen porque sus opciones de respuesta sobre residuos no son comparables; no hubo encuesta en 2020–2021.
 * **Alcance:** pequeños y medianos productores. El extracto **no incluye factores de expansión**, por lo que los resultados describen la muestra.
 * **Diccionario:** [`docs/diccionario_variables.md`](docs/diccionario_variables.md).
-* **Zenodo:** <https://doi.org/10.5281/zenodo.XXXXXXX>. Para publicar los datos y obtener los DOI, siga [`docs/GUIA_ZENODO.md`](docs/GUIA_ZENODO.md).
+* **Zenodo:** <https://doi.org/10.5281/zenodo.24371365> (extracto unificado 2014–2025 y diccionario, CC BY 4.0).
 
 ## Cómo citar
 
+**Datos:**
+
 ```bibtex
-@misc{zamora2026residuos,
-  author    = {Zamora Valencia, Angello Marcelo and Mamani Mena, Ronaldo Carlos and
-               C{\'a}ceres Tacora, Lizbeth Estefany and Butr{\'o}n Maquera, Tania Karin},
-  title     = {ena-cap600-clustering: código en R para la tipología de gestión
-               de residuos agropecuarios (ENA, Perú)},
+@misc{zamora2026ena_data,
+  author    = {Zamora Valencia, Angello Marcelo and Butr{\'o}n Maquera, Tania Karin and
+               C{\'a}ceres Tacora, Lizbeth Estefany and Mamani Mena, Ronaldo Carlos},
+  title     = {Peruvian National Agricultural Survey (ENA), Chapter 600: Unified Dataset
+               on Agricultural and Livestock Waste Management Practices, 2014--2025},
   year      = {2026},
   publisher = {Zenodo},
-  version   = {v1.0.0},
-  doi       = {10.5281/zenodo.YYYYYYY}
+  version   = {v1},
+  doi       = {10.5281/zenodo.24371365}
+}
+```
+
+**Código:**
+
+```bibtex
+@misc{zamora2026ena_code,
+  author       = {Zamora Valencia, Angello Marcelo and Mamani Mena, Ronaldo Carlos and
+                  C{\'a}ceres Tacora, Lizbeth Estefany and Butr{\'o}n Maquera, Tania Karin},
+  title        = {gestion\_residuos\_agricolas\_ena: código en R para la tipología
+                  de gestión de residuos agropecuarios (ENA, Perú)},
+  year         = {2026},
+  howpublished = {\url{https://github.com/Anyell0w/gestion_residuos_agricolas_ena}}
 }
 ```
 

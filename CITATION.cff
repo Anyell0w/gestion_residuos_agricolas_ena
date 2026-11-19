@@ -1,12 +1,11 @@
 cff-version: 1.2.0
 message: "Si utiliza este software o sus datos, cítelo como se indica."
 type: software
-title: "ena-cap600-clustering: código en R para la tipología de gestión de residuos agropecuarios (ENA, Perú)"
+title: "gestion_residuos_agricolas_ena: código en R para la tipología de gestión de residuos agropecuarios (ENA, Perú)"
 version: "1.0.0"
 date-released: "2026-11-19"
 license: MIT
-repository-code: "https://github.com/USUARIO/ena-cap600-clustering"
-doi: "10.5281/zenodo.YYYYYYY"
+repository-code: "https://github.com/Anyell0w/gestion_residuos_agricolas_ena"
 authors:
   - family-names: "Zamora Valencia"
     given-names: "Angello Marcelo"
@@ -29,12 +28,15 @@ keywords:
   - crop residue burning
   - ENA
   - Peru
-  - reproducible research
   - R
 references:
   - type: dataset
-    title: "Gestión de residuos agrícolas y pecuarios en productores agropecuarios del Perú: datos depurados de la ENA (Cap. 600) y asignaciones de grupo"
-    doi: "10.5281/zenodo.XXXXXXX"
+    title: "Peruvian National Agricultural Survey (ENA), Chapter 600: Unified Dataset on Agricultural and Livestock Waste Management Practices, 2014–2025"
+    publisher:
+      name: "Zenodo"
+    version: "v1"
+    year: 2026
+    doi: "10.5281/zenodo.24371365"
     authors:
       - family-names: "Zamora Valencia"
         given-names: "Angello Marcelo"

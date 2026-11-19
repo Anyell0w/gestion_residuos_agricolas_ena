@@ -9,6 +9,8 @@ Esta guía explica cómo publicar **dos registros** en Zenodo y cómo insertar s
 
 > **Recomendación:** haga primero una prueba completa en el **entorno de pruebas** <https://sandbox.zenodo.org> (es idéntico, pero sus DOI no son reales). Un registro publicado en Zenodo **no se puede borrar**; solo se pueden publicar versiones nuevas.
 
+> **Estado actual:** el registro de datos ya está publicado (https://doi.org/10.5281/zenodo.24371365) y el repositorio está en https://github.com/Anyell0w/gestion_residuos_agricolas_ena; ambos ya figuran en el artículo, el README y los metadatos. El registro de código (sección 2) es opcional; si lo crea, añada su DOI a `paper/main.tex`, `paper/references.bib` y `CITATION.cff`.
+
 ---
 
 ## 0. Preparación (una sola vez)

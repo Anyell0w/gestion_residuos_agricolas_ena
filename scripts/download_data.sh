@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Descarga el CSV crudo desde el registro de Zenodo (datos).
-# Tras publicar en Zenodo, scripts/set_doi.sh reemplaza XXXXXXX por el ID real.
+# Registro: https://doi.org/10.5281/zenodo.24371365
 set -euo pipefail
-RECORD="XXXXXXX"
+RECORD="24371365"
 DEST="data/raw/FINAL_UNIFICADO.csv"
 EXPECTED_MD5="$(cat data/raw/FINAL_UNIFICADO.csv.md5 2>/dev/null | cut -d' ' -f1 || true)"
 mkdir -p data/raw

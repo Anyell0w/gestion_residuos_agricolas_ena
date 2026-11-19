@@ -2,7 +2,7 @@
 # Configuración central del pipeline (todos los scripts la leen)
 # ------------------------------------------------------------------
 project:
-  name: "ena-cap600-clustering"
+  name: "gestion_residuos_agricolas_ena"
   seed: 2026
 
 paths:
